@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Weather</title>
+</head>
+<body>
+    <form id="search-form">
+        <input type="search" placeholder="Enter city name" id="search-input" required autocomplete="off">    
+        <button id="search-button">Search</button>
+    </form>
+     
+   <div class="main-content" >
+    <div class="location">
+        <h1 class="location-timezone">Timezone</h1>
+        <p id="description" >----</p>
+    </div>
+    <div class="temperature">
+        <div class="degree-section">
+        <img id="temp-icon" src="/img/cold.svg" alt="">
+        <h2 class="temperature-degree">-----</h2>
+        <span>&#176c</span>
+    </div>
+        <div class="temperature-description">
+            <p>----</p>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="index.js"></script>
+</html>
