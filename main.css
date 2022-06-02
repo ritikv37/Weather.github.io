@@ -53,11 +53,11 @@ body{
     height: auto;
 }
 .main-content{
-    background: linear-gradient(rgb(238, 211, 132), rgb(103, 186, 184));
+    /*background: linear-gradient(rgb(238, 211, 132), rgb(103, 186, 184));*/
     width: 23%;
     border: white 1px solid;
     border-radius: 10%;
-    box-shadow: 10px 10px 10px 10px rgba(112, 102, 102, 0.3);
+    /*box-shadow: 10px 10px 10px 10px rgba(112, 102, 102, 0.3);*/
 }
 #search-input{
     background-color: transparent;
